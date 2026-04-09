@@ -8,7 +8,7 @@ CRISPR-induced insertions and deletions (indels) at targeted genomic loci.
 This pipeline takes paired-end FASTQ files from amplicon sequencing experiments
 and produces per-sample indel counts, integration frequencies, and summary plots.
 
-Note: Please mount your project directory and reference directory (if not in project directory) in your nextflow.config file. 
+Note: If your reference genome or project directory are not located within your home directory ($HOME), you will need to manually mount them in nextflow.config. See the Configuration section below for details.
 
 ## Pipeline Steps
 
