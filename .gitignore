@@ -1,0 +1,18 @@
+# Data
+fastq/
+*.fastq.gz
+*.bam
+*.bai
+*.sam
+
+# Results
+Results/
+
+# Nextflow internals
+.nextflow/
+.nextflow.log*
+work/
+
+# Misc
+*.pyc
+__pycache__/
