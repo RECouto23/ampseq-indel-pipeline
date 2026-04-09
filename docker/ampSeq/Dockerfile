@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3:24.11.1-0
 
-LABEL maintainer="your.email@example.com"
+LABEL maintainer="RECouto524@gmail.com"
 LABEL description="AmpSeq pipeline: FastQC, Trimmomatic, FLASH, BWA, Samtools, Python analysis tools"
 LABEL version="1.0.0"
 
