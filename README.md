@@ -8,6 +8,8 @@ CRISPR-induced insertions and deletions (indels) at targeted genomic loci.
 This pipeline takes paired-end FASTQ files from amplicon sequencing experiments
 and produces per-sample indel counts, integration frequencies, and summary plots.
 
+Note: Please mount your project directory and reference directory (if not in project directory) in your nextflow.config file. 
+
 ## Pipeline Steps
 
 | Step | Tool | Description |
@@ -30,7 +32,7 @@ and produces per-sample indel counts, integration frequencies, and summary plots
 
 ### System Requirements
 - Minimum 16GB RAM recommended (BWA-MEM hg38 index requires ~8GB)
-- Docker images are built for linux/arm64 and available on Docker Hub
+- Docker images are built for linux/amd64 and available on Docker Hub
 
 ## Docker Images
 
